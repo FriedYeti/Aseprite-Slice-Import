@@ -34,19 +34,19 @@ optional arguments:
 ## How to use it:
 Given any number of sprites, import them into an aseprite file with the CLI:
 
-`aseprite.exe -b *.png --sheet-pack --sheet atlas-bestfit.png --data atlas-bestfit.json`
+`aseprite.exe -b *.png --sheet-pack --sheet atlas-bestfit.aseprite --data atlas-bestfit.json`
 
 Run the script:
 
 `python asepritedata.py atlas-bestfit.json atlas-bestfit`
 
-Open atlas-bestfit.aseprite and the fiel should be sliced, saving the file will import the slice data to the internal file structure.
+Open atlas-bestfit.aseprite and the file should be sliced, saving the file will import the slice data to the internal file structure.
 
 ## Example usage:
 
 Given any number of sprites, import them into an aseprite file with the CLI:
 
-`aseprite.exe -b *.png --sheet-pack --sheet atlas-bestfit.png --data atlas-bestfit.json`
+`aseprite.exe -b *.png --sheet-pack --sheet atlas-bestfit.aseprite --data atlas-bestfit.json`
 
 Opening the .aseprite file shows none of the images were imported as slices:
 
